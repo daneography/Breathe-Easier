@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\danea\OneDrive\School\Summer2017\SC-ADAR\ARTLab\BreatheEasier2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\danea\OneDrive\School\Summer2017\SC-ADAR\ARTLab\BreatheEasier2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ecd5f1cdf74c6c586c932a6676252ac0ca375e48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\danea\OneDrive\School\Summer2017\SC-ADAR\ARTLab\BreatheEasier2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3d1f49d600a3a6ae35bc6ad099398e927ea8a6b4">
+        <dex dex="C:\Users\danea\OneDrive\School\Summer2017\SC-ADAR\ARTLab\BreatheEasier2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bee44b082942ae7a87d791964ff80f32bebe3d57\classes.dex" />
+    </item>
+
+</items>
