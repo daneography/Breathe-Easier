@@ -106,34 +106,15 @@ public class NavigationActivity extends AppCompatActivity
             goToCommunities();
         } else if (id == R.id.navExercise) {
             goToExercise();
-        }else if (id == R.id.navLogin) {
-            goToLogin();
-        } else if (id == R.id.navRegister) {
-            goToRegister();
+        } else if (id == R.id.navAbout){
+            goToAbout();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
-//    public void onClick(View v) {
-//
-//        switch (v.getId()){
-//            case R.id.btnExercise:
-//                goToSettings();
-//                break;
-//            case R.id.btnCommunities:
-//                goToCommunities();
-//                break;
-//            case R.id.btnDaily:
-//                goToDaily();
-//                break;
-//            case R.id.btnMindfulness:
-//                goToTraining();
-//                break;
-//        }
-//
-//    }
+
 
     private void goToCommunities() {
         Intent intent = new Intent(this, communitiesActivity.class);
@@ -151,18 +132,13 @@ public class NavigationActivity extends AppCompatActivity
         startActivity(intent);
     }
 
-    private void goToRegister() {
-        Intent intent = new Intent(this, communitiesActivity.class);//Change to REgistration
-        startActivity(intent);
-    }
-
-    private void goToLogin() {
-        Intent intent = new Intent(this, communitiesActivity.class); //change to login
-        startActivity(intent);
-    }
-
     private void goToExercise() {
-        Intent intent = new Intent(this, exercisesActivity.class); // Change to setting
+        Intent intent = new Intent(this, exercisesActivity.class);
+        startActivity(intent);
+    }
+
+    private void goToAbout() {
+        Intent intent = new Intent(this, aboutActivity.class);
         startActivity(intent);
     }
 

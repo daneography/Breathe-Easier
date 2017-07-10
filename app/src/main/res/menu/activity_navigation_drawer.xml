@@ -4,37 +4,26 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/navMindfulness"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_action_cloud"
             android:title="Mindfulness" />
         <item
             android:id="@+id/navDaily"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_action_coffee"
             android:title="Daily" />
         <item
             android:id="@+id/navCommunities"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_people"
             android:title="Communities" />
         <item
             android:id="@+id/navExercise"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Settings" />
+            android:icon="@drawable/ic_nature_people"
+            android:title="Exercise" />
         <item
             android:id="@+id/navAbout"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/ic_action_info"
             android:title="About" />
     </group>
-    <item android:title="Log-in/Register">
-        <menu>
-            <item
-                android:id="@+id/navLogin"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Login" />
-            <item
-                android:id="@+id/navRegister"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Register" />
-        </menu>
-    </item>
+
 
 
 </menu>

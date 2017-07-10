@@ -13,12 +13,12 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".licenseAgreement"
-            android:theme="@style/AppTheme.NoActionBar"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".NavigationActivity" />
         <activity
@@ -54,7 +54,14 @@
                 android:value=".NavigationActivity" />
         </activity>
         <activity android:name=".welcomeActivity" />
-        <activity android:name=".userMain">            </activity>
+        <activity android:name=".userMain"></activity>
+        <activity android:name=".aboutActivity"
+            android:parentActivityName=".NavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationActivity" />
+        </activity>
     </application>
 
 </manifest>
