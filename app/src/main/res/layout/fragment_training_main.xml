@@ -13,12 +13,20 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="275dp"
+        android:layout_height="220dp"
         android:layout_marginLeft="-10dp"
         android:layout_marginRight="-10dp"
         android:layout_marginTop="-5dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/photo72ppi" />
+        app:srcCompat="@drawable/photo120ppi" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/instruction_rec"
+        android:text="These are the weekly training that you will be performing, select the appropriate week of intervention you are in, you will be able to access the intervention trhough the buttons below."
+        android:textColor="@android:color/white"
+        />
 
     <ScrollView
         android:layout_width="match_parent"
