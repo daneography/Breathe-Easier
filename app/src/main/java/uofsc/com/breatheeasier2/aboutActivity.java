@@ -26,7 +26,7 @@ public class aboutActivity extends AppCompatActivity {
         Fragment fragment;
         fragment = new aboutMainFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.toolbar, fragment);
+        ft.replace(R.id.about_layout, fragment);
         ft.commit();
     }
 }

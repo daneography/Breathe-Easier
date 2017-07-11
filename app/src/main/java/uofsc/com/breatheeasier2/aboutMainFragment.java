@@ -74,7 +74,7 @@ public class aboutMainFragment extends Fragment implements View.OnClickListener 
         Fragment fragment;
         fragment = new ProfileFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.toolbar, fragment);
+        ft.replace(R.id.about_layout, fragment);
         ft.commit();
     }
     private boolean goToTutorial(){

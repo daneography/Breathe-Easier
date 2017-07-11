@@ -122,7 +122,7 @@ public class RegisterFragment extends Fragment  implements View.OnClickListener{
 
         Fragment login = new LoginFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.constraintLayout,login);
+        ft.replace(R.id.userMain_Layout,login);
         ft.commit();
     }
 }
