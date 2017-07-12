@@ -131,10 +131,10 @@ public class LoginFragment extends Fragment implements View.OnClickListener{
     }
 
     private void goToRegister(){
-
-        Fragment register = new RegisterFragment();
+        Fragment fragment;
+        fragment = new RegisterFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.userMain_Layout,register);
+        ft.replace(R.id.userMain_Layout,fragment);
         ft.commit();
     }
 

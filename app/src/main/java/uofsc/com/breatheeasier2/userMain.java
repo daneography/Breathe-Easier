@@ -31,7 +31,7 @@ public class userMain extends AppCompatActivity {
             Fragment fragment;
             fragment = new LoginFragment();
             FragmentTransaction ft = getFragmentManager().beginTransaction();
-            ft.replace(R.id.fragment_frame,fragment);
+            ft.replace(R.id.userMain_Layout,fragment);
             ft.commit();
         }
 

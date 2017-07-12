@@ -120,9 +120,10 @@ public class RegisterFragment extends Fragment  implements View.OnClickListener{
 
     private void goToLogin(){
 
-        Fragment login = new LoginFragment();
+        Fragment fragment;
+        fragment = new LoginFragment();
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        ft.replace(R.id.userMain_Layout,login);
+        ft.replace(R.id.userMain_Layout,fragment);
         ft.commit();
     }
 }
