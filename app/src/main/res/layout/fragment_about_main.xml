@@ -18,7 +18,7 @@
         android:layout_marginRight="-10dp"
         android:layout_marginTop="-5dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/photo120ppi" />
+        app:srcCompat="@drawable/dyad1b" />
 
     <android.support.v7.widget.AppCompatTextView
         android:layout_width="match_parent"
