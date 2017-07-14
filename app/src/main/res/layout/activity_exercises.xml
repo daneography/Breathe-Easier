@@ -45,7 +45,7 @@
             android:text="Body Scan"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="60px" />
+            android:textSize="80px" />
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/btnEvidence"
@@ -54,7 +54,7 @@
             android:text="Breathing Exercises"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="60px"
+            android:textSize="80px"
             android:background="@color/colorPrimary"
             android:textColor="@android:color/white"/>
 
@@ -65,7 +65,7 @@
             android:text="Gentle Movements"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="60px"
+            android:textSize="80px"
             android:background="@color/colorPrimary"
             android:textColor="@android:color/white"/>
 
@@ -76,7 +76,7 @@
             android:text="Closing Gratitude"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="60px"
+            android:textSize="80px"
             android:background="@color/colorPrimary"
             android:textColor="@android:color/white"/>
 
@@ -87,7 +87,7 @@
             android:text="Loving Kindness Meditation"
             android:textAlignment="center"
             android:layout_marginTop="10dp"
-            android:textSize="60px"
+            android:textSize="80px"
             android:background="@color/colorPrimary"
             android:textColor="@android:color/white"/>
 
